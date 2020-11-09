@@ -77,6 +77,34 @@
       "version" : "2.0.0.Final",
       "name" : "Circuit Breaker Policy",
       "description" : "This plugin has policies for performing circuit breaker functionality."
+    },
+    {
+      "groupId" : "io.apiman.plugins",
+      "artifactId" : "apiman-plugins-jwt-policy",
+      "version" : "1.3.2-SNAPSHOT",
+      "name" : "JWT Policy Plugin",
+      "description" : "Validating JWTs."
+    },
+    {
+      "groupId" : "io.apiman.plugins",
+      "artifactId" : "apiman-plugins-3scale-auth",
+      "version" : "1.3.2-SNAPSHOT",
+      "name" : "3scale auth plugin",
+      "description" : "3scale auth plugin for apiman. You typically would not use this via the apiman UI."
+    },
+    {
+      "groupId" : "io.apiman.plugins",
+      "artifactId" : "apiman-plugins-config-policy",
+      "version" : "1.3.2-SNAPSHOT",
+      "name" : "Config Policy Plugin",
+      "description" : "This plugin adds a header to the inbound http request and to the outbound http response.  The headers are configurable."
+    },
+    {
+      "groupId" : "io.apiman.plugins",
+      "artifactId" : "unique-header-policy",
+      "version" : "1.3.2-SNAPSHOT",
+      "name" : "Unique Header Policy Plugin",
+      "description" : "This plugin sets a unique value in a named header."
     }
   ]
 }
